@@ -6,20 +6,25 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 const Navbar = () => {
     return (
-        <div className="text-center mt-5">
-            <h1>Hello Rigo!</h1>
-            <p>
-                <img src={rigoImage} />
-            </p>
-            <a href="#" className="btn btn-success">
-                If you see this green button... bootstrap is working
-            </a>
-            <p>
-                Made by{" "}
-                <a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-                love!
-            </p>
-        </div>
+        <Navbar bg="light" expand="lg">
+            <Container>
+                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto">
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#link">Link</Nav.Link>
+                        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                        </NavDropdown>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     );
 };
 
