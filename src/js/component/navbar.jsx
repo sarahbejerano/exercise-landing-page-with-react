@@ -25,7 +25,7 @@ const Navbar = () => {
 							Start Bootstrap
 						</BootstrapNavbar.Brand>
 					</Col>
-					<Col className="me-2">
+					<Col className="d-flex justify-content-end">
 						<BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
 						<BootstrapNavbar.Collapse id="basic-navbar-nav">
 							<Nav className="me-auto">

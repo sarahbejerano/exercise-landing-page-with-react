@@ -4,7 +4,10 @@ import { Navbar, Container } from "react-bootstrap";
 
 const Footer = () => {
 	return (
-		<Navbar bg="dark" variant="dark">
+		<Navbar
+			bg="dark"
+			variant="dark"
+			className="d-flex justify-content-center">
 			<Container>
 				<Navbar.Brand href="#home">
 					Copyright © Sarah Bejerano 2021
