@@ -19,13 +19,13 @@ const Navbar = () => {
 			variant="dark"
 			fluid>
 			<Container>
-				<Row>
+				<Row className="container-fluid justify-content-space-between d-flex">
 					<Col className="navBrand">
 						<BootstrapNavbar.Brand href="#home">
 							Start Bootstrap
 						</BootstrapNavbar.Brand>
 					</Col>
-					<Col className="d-flex justify-content-end">
+					<Col>
 						<BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
 						<BootstrapNavbar.Collapse id="basic-navbar-nav">
 							<Nav className="me-auto">

@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./component/navbar";
 import Jumbotron from "./component/jumbotron";
-import Card from "./component/card";
+import Cards from "./component/cards";
 import Footer from "./component/footer";
 import "../styles/home.scss";
 
@@ -11,7 +11,7 @@ const Home = () => {
 		<div className="homeContainer">
 			<Navbar />
 			<Jumbotron />
-			<Card />
+			<Cards />
 			<Footer />
 		</div>
 	);
