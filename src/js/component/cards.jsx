@@ -24,6 +24,16 @@ const Cards = () => {
 			title: "four",
 			image: "http://via.placeholder.com/640x360",
 			description: "Lorem Ipsun"
+		},
+		{
+			title: "five",
+			image: "http://via.placeholder.com/640x360",
+			description: "Lorem Ipsun"
+		},
+		{
+			title: "six",
+			image: "http://via.placeholder.com/640x360",
+			description: "Lorem Ipsun"
 		}
 	];
 	return (

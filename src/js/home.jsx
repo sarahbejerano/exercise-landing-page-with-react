@@ -1,6 +1,7 @@
 import React from "react";
-import Navbar from "./component/navbar";
+import NavbarPage from "./component/navbar";
 import Jumbotron from "./component/jumbotron";
+import CarouselPage from "./component/carousel";
 import Cards from "./component/cards";
 import Footer from "./component/footer";
 import "../styles/home.scss";
@@ -9,9 +10,10 @@ import "../styles/home.scss";
 const Home = () => {
 	return (
 		<div className="homeContainer">
-			<Navbar />
-			<Jumbotron />
+			<NavbarPage />
+			<CarouselPage />
 			<Cards />
+			<Jumbotron />
 			<Footer />
 		</div>
 	);
