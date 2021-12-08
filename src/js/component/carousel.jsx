@@ -5,50 +5,27 @@ import "../../styles/carousel.scss";
 const CarouselPage = () => {
 	return (
 		<Container>
-			<Carousel fade>
-				<Carousel.Item>
+            <Carousel fade className="previewImages" variant="light" fluid="lg">
+                <Carousel.Item className="carouselItem" interval={500}>
 					<img
-						className="d-block w-100"
-						src="holder.js/800x400?text=First slide&bg=373940"
+                        className="d-block w-100 carousel-img"
+						src="https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2019/04/ia_0530_a-historic-timeline-of-miamis-art-deco-district_spot1.jpg"
 						alt="First slide"
 					/>
-					<Carousel.Caption>
-						<h3>First slide label</h3>
-						<p>
-							Nulla vitae elit libero, a pharetra augue mollis
-							interdum.
-						</p>
-					</Carousel.Caption>
 				</Carousel.Item>
-				<Carousel.Item>
+				<Carousel.Item interval={500}>
 					<img
-						className="d-block w-100"
-						src="holder.js/800x400?text=Second slide&bg=282c34"
+                        className="d-block w-100 carousel-img"
+						src="https://theculturetrip.com/wp-content/uploads/2019/04/ia_0530_a-historic-timeline-of-miamis-art-deco-district_spot2.jpg"
 						alt="Second slide"
 					/>
-
-					<Carousel.Caption>
-						<h3>Second slide label</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit.
-						</p>
-					</Carousel.Caption>
 				</Carousel.Item>
-				<Carousel.Item>
+				<Carousel.Item interval={500}>
 					<img
-						className="d-block w-100"
-						src="holder.js/800x400?text=Third slide&bg=20232a"
+                        className="d-block w-100 carousel-img"
+						src="https://cdn.theculturetrip.com/wp-content/uploads/2019/04/ia_0530_a-historic-timeline-of-miamis-art-deco-district_header2.jpg"
 						alt="Third slide"
 					/>
-
-					<Carousel.Caption>
-						<h3>Third slide label</h3>
-						<p>
-							Praesent commodo cursus magna, vel scelerisque nisl
-							consectetur.
-						</p>
-					</Carousel.Caption>
 				</Carousel.Item>
 			</Carousel>
 		</Container>
