@@ -4,9 +4,9 @@ import { Navbar, Container } from "react-bootstrap";
 
 const Footer = () => {
 	return (
-		<Navbar bg="dark" variant="dark">
+		<Navbar className="footerpage">
 			<Container className="justify-content-center d-flex">
-				<Navbar.Brand href="#home">
+				<Navbar.Brand>
 					<h6>Copyright © Sarah Bejerano 2021</h6>
 				</Navbar.Brand>
 			</Container>

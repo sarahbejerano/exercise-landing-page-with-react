@@ -52,49 +52,54 @@ export const Home = () => {
 				</Col>
 				<Col xs={12} md={4}>
 					<CardPage
-						imageUrl=""
-						name=""
-						architect=""
-						year=""
-						location=""
+						imageUrl="https://media.timeout.com/images/102973269/1372/1029/image.jpg"
+						name="The Webster"
+						architect="Henry Hohauser"
+						year="1939"
+						location="1220 Collins Ave at 12th St"
+						text="A hotel-turned-luxury-boutique of Parisian-designed fashion. This Art Deco pedigree building with original terrazzo flooring, as well as a geometric façade with neon accents, that solidify its Art Deco designation."
 					/>
 				</Col>
 				<Col xs={12} md={4}>
 					<CardPage
-						imageUrl=""
-						name=""
-						architect=""
-						year=""
-						location=""
+						imageUrl="https://media.timeout.com/images/103470013/1372/1029/image.jpg"
+						name="The Clevelander"
+						architect="Albert Anis "
+						year="1938"
+						location="1020 Ocean Dr at 10th St"
+						text="The austere architect, whose portfolio included 70 projects across Miami Beach, went total glam with the decorative Clevelander, incorporating a fully ornate central bay and “eyebrows” that split in the front but continue along the sides."
 					/>
 				</Col>
 			</Row>
 			<Row className="p-1">
 				<Col xs={12} md={4}>
 					<CardPage
-						imageUrl=""
-						name=""
-						architect=""
-						year=""
-						location=""
+						imageUrl="https://foto.hrsstatic.com/fotos/0/3/1090/700/80/000000/http%3A%2F%2Ffoto-origin.hrsstatic.com%2Ffoto%2F2%2F5%2F9%2F6%2F%2Fteaser_259673.jpg/4h7cRKxPKxIsB%2FWkkD9AvA%3D%3D/678,611/6/Essex_House_Hotel_And_Suites-Miami_Beach-Aussenansicht-259673.jpg"
+						name="Essex House Hotel"
+						architect="Henry Hohauser"
+						year="1938"
+						location="1001 Collins Ave at 10th St"
+						text="Features porthole windows and a smokestack-like neon tower that call to mind a land-locked ocean liner. With its curved façade pointed streetward, the Essex appears to be docked on the junction of Collins and 10th Street."
 					/>
 				</Col>
 				<Col xs={12} md={4}>
 					<CardPage
-						imageUrl=""
-						name=""
-						architect=""
-						year=""
-						location=""
+						imageUrl="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/64/35/20/hotel-exterior.jpg?w=900&h=-1&s=1"
+						name="The Breakwater"
+						architect="Anton Skislewicz"
+						year="1939"
+						location="940 Ocean Dr, Miami"
+						text="Is one of the most well-known boutique properties in the area. You’d recognize that grand, nautical-inspired spire anywhere. If it seems like the ocean-facing hotel is about to sail, well, that’s the point."
 					/>
 				</Col>
 				<Col xs={12} md={4}>
 					<CardPage
-						imageUrl=""
-						name=""
-						architect=""
+						imageUrl="https://media.timeout.com/images/101506487/1372/1029/image.jpg"
+						name="The Tides"
+						architect="L. Murray Dixon"
 						year=""
-						location=""
+						location="1220 Ocean Dr between 12th and 13th Sts "
+						text="L. Murray Dixon was one of the city’s most prolific architects of the Art Deco era, so it’s only fitting that the tallest Art Deco structure of the mid-’30s would be credited to him."
 					/>
 				</Col>
 			</Row>

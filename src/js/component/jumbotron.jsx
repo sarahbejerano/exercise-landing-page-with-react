@@ -5,19 +5,21 @@ import "../../styles/jumbotron.scss";
 //create your first component
 const Jumbotron = () => {
 	return (
-		<Container fluid>
-			<div className="jumbotron">
-				<div className="jumboText">
-					<h5 className="visit">visit Miami</h5>
-					<p className="lead">text information</p>
-					<p className="lead">
-						<a className="btn" href="#" role="button">
-							Call to action!
-						</a>
-					</p>
-				</div>
+		<div className="jumbotron">
+			<div className="center jumbovidtext">
+				<h1 className="txtjumbo">Come to visit Miami</h1>
+				<p className="txtjumbo"></p>
+				<p>
+					<a
+						className="btn btn-sm"
+						id="botjumbo"
+						href="#"
+						role="button">
+						More information
+					</a>
+				</p>
 			</div>
-		</Container>
+		</div>
 	);
 };
 
