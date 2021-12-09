@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/cards.scss";
-import { Card, Button, Container } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 import PropTypes from "prop-types";
 
 const CardPage = ({ imageUrl, name, architect, text, year, location }) => {
@@ -10,17 +10,23 @@ const CardPage = ({ imageUrl, name, architect, text, year, location }) => {
 				className="cardImage"
 				variant="top"
 				src={imageUrl}
-				style={{ position: "center", padding: "20px" }}
+				style={{ position: "center", padding: "5px" }}
 			/>
 
 			<Card.Body className="cardBody">
-				<Card.Title>{name}</Card.Title>
-				<Card.Text>{architect}</Card.Text>
+				<Card.Title>
+					<b>{name}</b>
+				</Card.Title>
+				<Card.Text>
+					<b>{architect}</b>
+				</Card.Text>
 				<Card.Text>{year}</Card.Text>
 				<Card.Text>{location}</Card.Text>
 				<Card.Text>{text}</Card.Text>
 				<div className="footerCard">
-					<Button className="moreDetails">More Details</Button>
+					<Button type="button" className="moreDetails" size="sm">
+						More Details
+					</Button>
 				</div>
 			</Card.Body>
 		</Card>

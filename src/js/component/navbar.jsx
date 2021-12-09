@@ -11,13 +11,21 @@ const NavbarPage = () => {
 			xs={12}
 			md={4}
 			className="navbarStyle">
-			<Navbar.Brand href="#home">Miami Art Deco District</Navbar.Brand>
+			<Navbar.Brand href="/">
+				<h3>Miami Art Deco District</h3>
+			</Navbar.Brand>
 			<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 			<Navbar.Collapse id="responsive-navbar-nav">
 				<Nav className="me-auto">
-					<Nav.Link href="/architects">Architects</Nav.Link>
-					<Nav.Link href="/buildings">Buildings</Nav.Link>
-					<Nav.Link href="/timeline">Timeline </Nav.Link>
+					<Nav.Link href="/architects">
+						<h4>Architects</h4>
+					</Nav.Link>
+					<Nav.Link href="/buildings">
+						<h4>Buildings</h4>
+					</Nav.Link>
+					<Nav.Link href="/timeline">
+						<h4>Timeline</h4>{" "}
+					</Nav.Link>
 				</Nav>
 				<Nav>
 					<Nav.Link href="/aboutcreator">About Creator </Nav.Link>

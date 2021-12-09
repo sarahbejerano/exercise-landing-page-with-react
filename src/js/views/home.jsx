@@ -33,21 +33,21 @@ export const Home = () => {
 			<>
 				<Navbar>
 					<div className="highlights">
-						<Navbar.Brand>
-							<h3>MIAMI Art Deco District Highlights</h3>
+						<Navbar.Brand variant="light">
+							<h3>MIAMI Art Deco Highlights</h3>
 						</Navbar.Brand>
 					</div>
 				</Navbar>
 			</>
-			<Row>
+			<Row className="p-1">
 				<Col xs={12} md={4}>
 					<CardPage
-					// imageUrl=""
-					// name=""
-					// architect=""
-					// year=""
-					// text=""
-					// location=""
+						imageUrl="https://media.timeout.com/images/105467121/1372/1029/image.jpg"
+						name="Cardozo South Beach"
+						architect="Henry Hohauser"
+						year="1939"
+						location="1300 Ocean Dr, South Beach"
+						text="The Cardozo Hotel was named after, Benjamin Cardozo, one of the first Jewish jurors appointed to the US Supreme Court.  Cardozo is part of the Art Deco District, recognized by the National Register of Historic Places."
 					/>
 				</Col>
 				<Col xs={12} md={4}>
@@ -69,7 +69,7 @@ export const Home = () => {
 					/>
 				</Col>
 			</Row>
-			<Row>
+			<Row className="p-1">
 				<Col xs={12} md={4}>
 					<CardPage
 						imageUrl=""

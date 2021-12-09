@@ -17,12 +17,11 @@ const Layout = () => {
 			<ScrollToTop>
 				<NavbarPage />
 				<Routes>
-					<Route path="/" element={<Home />}>
-						<Route path="architects" element={<Architects />} />
-						<Route path="buildings" element={<Buildings />} />
-						<Route path="timeline" element={<Timeline />} />
-						<Route path="aboutcreator" element={<AboutCreator />} />
-					</Route>
+					<Route path="/" element={<Home />} />
+					<Route path="/architects" element={<Architects />} />
+					<Route path="/buildings" element={<Buildings />} />
+					<Route path="/timeline" element={<Timeline />} />
+					<Route path="/aboutcreator" element={<AboutCreator />} />
 				</Routes>
 				<Jumbotron />
 				<Footer />
