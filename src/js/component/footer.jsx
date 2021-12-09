@@ -7,7 +7,7 @@ const Footer = () => {
 		<Navbar bg="dark" variant="dark">
 			<Container className="justify-content-center d-flex">
 				<Navbar.Brand href="#home">
-					Copyright © Sarah Bejerano 2021
+					<h6>Copyright © Sarah Bejerano 2021</h6>
 				</Navbar.Brand>
 			</Container>
 		</Navbar>

@@ -3,6 +3,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "bootstrap";
 import "../styles/index.scss";
-import Home from "./home.jsx";
+import Layout from "./layout.jsx";
 
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<Layout />, document.querySelector("#app"));

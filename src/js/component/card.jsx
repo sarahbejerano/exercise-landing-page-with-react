@@ -1,25 +1,39 @@
 import React from "react";
-import { Card as BoostrapCard, Button, ListGroup } from "react-bootstrap";
+import "../../styles/cards.scss";
+import { Card, Button, Container } from "react-bootstrap";
 import PropTypes from "prop-types";
 
-//create your first component
-const Card = ({ title, image, description }) => {
+const CardPage = ({ imageUrl, name, architect, text, year, location }) => {
 	return (
-		<BoostrapCard className="card text-center">
-			<BoostrapCard.Img variant="top" src={image} />
-			<BoostrapCard.Body>
-				<BoostrapCard.Title>{title}</BoostrapCard.Title>
-				<BoostrapCard.Text>{description}</BoostrapCard.Text>
-				<Button variant="primary">Find Out More!</Button>
-			</BoostrapCard.Body>
-		</BoostrapCard>
+		<Card className="cardFull">
+			<Card.Img
+				className="cardImage"
+				variant="top"
+				src={imageUrl}
+				style={{ position: "center", padding: "20px" }}
+			/>
+
+			<Card.Body className="cardBody">
+				<Card.Title>{name}</Card.Title>
+				<Card.Text>{architect}</Card.Text>
+				<Card.Text>{year}</Card.Text>
+				<Card.Text>{location}</Card.Text>
+				<Card.Text>{text}</Card.Text>
+				<div className="footerCard">
+					<Button className="moreDetails">More Details</Button>
+				</div>
+			</Card.Body>
+		</Card>
 	);
 };
 
-export default Card;
+export default CardPage;
 
-Card.propTypes = {
-	title: PropTypes.string,
-	image: PropTypes.string,
-	description: PropTypes.string
+CardPage.propTypes = {
+	imageUrl: PropTypes.string,
+	name: PropTypes.string,
+	architect: PropTypes.string,
+	year: PropTypes.string,
+	location: PropTypes.string,
+	text: PropTypes.string
 };

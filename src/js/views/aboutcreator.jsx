@@ -1,5 +1,5 @@
 import React from "react";
 
-export const Buildings = () => {
+export const AboutCreator = () => {
 	return <div></div>;
 };
